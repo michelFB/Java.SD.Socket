@@ -10,8 +10,8 @@ import java.io.IOException;
       
       public static void main(String args[]){
           try {
-              ServerSocket server = new ServerSocket(3322);                       
-              System.out.println("Servidor iniciado na porta 3322");
+              ServerSocket server = new ServerSocket(12345);                       
+              System.out.println("Servidor iniciado na porta 12345");
               
               Socket cliente = server.accept();
               System.out.println("Cliente conectado do IP "+cliente.getInetAddress().

@@ -27,7 +27,7 @@ import java.io.IOException;
       
       private void initCliente(){
           try {
-              cliente = new Socket("127.0.0.1",3322);
+              cliente = new Socket("192.168.1.104",12345);
           } catch (IOException ex) {
               Logger.getLogger(FClient.class.getName()).log(Level.SEVERE, null, ex);
           }
